@@ -1,4 +1,4 @@
-# Machine Learning Perturbation Theory (MLPT) and Machine Learning Monte Carlo (MLMC)
+# Machine Learning thermodynamic Perturbation Theory (MLPT) and Machine Learning Monte Carlo (MLMC)
 
 This repository contains code that implement Machine Learning Perturbation Theory (MLPT) and Machine Learning Monte Carlo (MLMC) as used in references below.
 
