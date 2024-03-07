@@ -1,1 +1,30 @@
 
+### Shared data for "Coupled cluster finite temperature simulations of periodic materials via machine learning."
+
+
+cctemplate : input files used to compute MP2/CCSD/CCSD(T) energies (VASP + CC4S)
+
+training data : training data for the chabazite, the co2 molecule and the adsorbed system. 
+
+```
+├── cctemplate                  input calculation files 
+│   ├── KPOINTS
+│   ├── cc4s.in
+│   ├── cc4s_not.in
+│   ├── cc4s_t.in
+│   ├── extract_energies.sh
+│   ├── run_1.sh
+│   ├── run_2.sh
+│   ├── run_3.sh
+│   └── run_cc1.sh
+└── training_data                
+    ├── energies                MP2/CCSD/CCSD(T) energies for
+    │   ├── co2.110             the xyz files below
+    │   ├── co2@hchab.110
+    │   └── hchab.110
+    └── xyz                     training configurations from
+        ├── co2.xyz             molecular dynamics
+        ├── co2@hchab.xyz
+        └── hchab.xyz
+
+```
